@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.calculator-body {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    background-color: burlywood;
+    padding: 15px;
+}
+
+#screen {
+    background-color: green;
+    flex: 1;
+}
+
+.row {
+    flex: 1;
+}
